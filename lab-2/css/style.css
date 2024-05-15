@@ -1,0 +1,26 @@
+/** Step one **/
+
+/** Step two **/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kanit' ;
+}
+/** Step three **/
+h1 {
+    font-size: 46px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #3366CC; 
+}
+
+/** Step four **/
+body {
+    font-family: 'Open Sans';
+}
+/** Step five **/
+p span {
+    color: #FF5733;
+/** Step six **/
+h3 {
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
