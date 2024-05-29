@@ -1,0 +1,91 @@
+/* General Styles */
+/* Apply default font and background color to the entire body */
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #f0f0f0; 
+    color: #333; 
+    margin: 0; 
+    padding: 0; 
+}
+
+/* Header Styles */
+/* Style for the header section */
+header {
+    background-color: #282c34; 
+    color: white; 
+    padding: 20px;
+    text-align: center; 
+}
+
+/* Style for the main header (song title) */
+header h1 {
+    font-family: 'Georgia', serif;
+    margin: 0; 
+}
+
+/* Main Content Styles */
+/* Flexbox layout for the main content */
+main {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px; 
+}
+
+/* Style for the article section (lyrics) */
+article {
+    width: 70%; 
+}
+
+/* Style for the aside section (image and video) */
+aside {
+    width: 10%; 
+}
+
+/* Style for the image in the aside section */
+aside img {
+    width: 30%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+}
+
+/* Footer Styles */
+/* Style for the footer section */
+footer {
+    background-color: #282c34; 
+    color: white; 
+    text-align: center; 
+    padding: 10px;
+}
+
+/* Font Styles */
+/* Style for the paragraph text (lyrics) */
+p {
+    font-size: 1.2em; 
+    line-height: 1.6; 
+}
+
+/* Style for the first letter of each paragraph */
+p::first-letter {
+    font-size: 1.4em; 
+    font-weight: bold; 
+}
+
+/* Additional Styles */
+/* Remove default margin for headers */
+h1, h2 {
+    margin: 0;
+}
+
+/* Style for the secondary header (artist name) */
+h2 {
+    font-family: 'Courier New', monospace; 
+}
+
+/* Style for the section containing the lyrics */
+section {
+    background-color: #ffffff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
